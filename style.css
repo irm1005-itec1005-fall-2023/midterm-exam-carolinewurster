@@ -35,3 +35,49 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1,h3 {
+  color:rgb(134, 56, 4);
+}
+
+h3{
+  font-size:2rem;
+}
+
+h2,p{
+  color:rgb(97, 40, 1);
+}
+
+small{
+  color:rgb(134, 56, 4);
+}
+
+.button{
+  background-color: rgb(97, 40, 1);
+  color:white;
+  padding:0.5rem 1rem;
+  border-radius:0.25rem;
+  text-decoration:none;
+  position: relative;
+}
+
+.coffee-container{
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
+}
+
+.container{
+position: relative;
+align-items:center;
+justify-content:center;
+padding: 1rem;
+width: 350px;
+height: 600px;
+box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+border-radius: 0.9rem;
+
+}
